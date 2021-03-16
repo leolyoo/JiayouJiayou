@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">10dp</dimen>
+    <dimen name="font_size_title">24sp</dimen>
+    <dimen name="font_size_question">18sp</dimen>
+    <dimen name="font_size_character">18sp</dimen>
+    <dimen name="padding_title">5dp</dimen>
+    <dimen name="padding_question">10dp</dimen>
+    <dimen name="radius_corner_default">12dp</dimen>
+</resources>

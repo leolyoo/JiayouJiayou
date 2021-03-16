@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StageActivity">
+
+    <TextView
+        android:id="@+id/text_stage"
+        style="@style/TitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_video"
+        style="@style/DefaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onVideoClick"
+        android:text="@string/video" />
+
+    <Button
+        android:id="@+id/button_part1"
+        style="@style/DefaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onPart1Click"
+        android:text="@string/part1" />
+
+    <Button
+        android:id="@+id/button_part2"
+        style="@style/DefaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onPart2Click"
+        android:text="@string/part2" />
+
+    <Button
+        android:id="@+id/button_exam"
+        style="@style/DefaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onExamClick"
+        android:text="@string/exam" />
+</LinearLayout>

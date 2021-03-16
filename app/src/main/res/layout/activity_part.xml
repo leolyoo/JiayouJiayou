@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PartActivity">
+
+    <TextView
+        android:id="@+id/text_stage"
+        style="@style/TitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_part"
+        style="@style/TitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_weight="1"
+        android:background="@drawable/image_background_rect_teal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_word"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_default"
+        android:layout_weight="1"
+        android:background="@drawable/image_background_rect_teal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_word_quiz"
+            style="@style/DefaultButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onWordQuizClick"
+            android:text="@string/word_quiz" />
+
+        <Button
+            android:id="@+id/button_blank_quiz"
+            style="@style/DefaultButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onBlankQuizClick"
+            android:text="@string/blank_quiz" />
+
+        <Button
+            android:id="@+id/button_arrange_quiz"
+            style="@style/DefaultButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onArrangeQuizClick"
+            android:text="@string/arrange_quiz" />
+    </LinearLayout>
+
+</LinearLayout>

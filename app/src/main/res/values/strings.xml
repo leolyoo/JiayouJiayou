@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JiayouJiayou</string>
+    <string name="stage">STAGE %d</string>
+    <string name="stage01">STAGE 1</string>
+    <string name="stage02">STAGE 2</string>
+    <string name="stage03">STAGE 3</string>
+    <string name="stage04">STAGE 4</string>
+    <string name="stage05">STAGE 5</string>
+    <string name="stage06">STAGE 6</string>
+    <string name="stage07">STAGE 7</string>
+    <string name="stage08">STAGE 8</string>
+    <string name="stage09">STAGE 9</string>
+    <string name="stage10">STAGE 10</string>
+    <string name="stage11">STAGE 11</string>
+    <string name="stage12">STAGE 12</string>
+    <string name="video">오늘의 주제</string>
+    <string name="part">PART %d</string>
+    <string name="part1">PART 1</string>
+    <string name="part2">PART 2</string>
+    <string name="exam">종합퀴즈</string>
+    <string name="watch_video">WATCH VIDEO</string>
+    <string name="speech">SPEECH</string>
+    <string name="write">WRITE</string>
+    <string name="erase">지우기</string>
+    <string name="gif">GIF</string>
+    <string name="word_quiz">단어퀴즈</string>
+    <string name="blank_quiz">빈칸퀴즈</string>
+    <string name="arrange_quiz">배열퀴즈</string>
+
+</resources>
